@@ -16,7 +16,7 @@ channel_links = {
 }
 
 # Создание и подключение к базе данных
-conn = sqlite3.connect('free_spins.db', check_same_thread=False)
+conn = sqlite3.connect('movie.db', check_same_thread=False)
 cursor = conn.cursor()
 
 # Создание таблицы для хранения информации о пользователях и фриспинах
